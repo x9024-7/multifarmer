@@ -23,7 +23,7 @@ local Window = nil
 
 -- Clean up any existing UI instances at script start
 for _, gui in pairs(game.CoreGui:GetChildren()) do
-	if gui.Name == "Vacs Multi Autofarmer V2 | Thank you Grok <3" then
+	if gui.Name == "Vacs Multi Autofarmer V2" then
 		gui:Destroy()
 		print("Cleaned up existing UI at script start")
 	end
